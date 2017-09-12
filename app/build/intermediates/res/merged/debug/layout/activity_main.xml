@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/download" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+    android:background="#ff0"
+        android:text="HELLO" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/images1" />
+
+</LinearLayout>
+
+<FrameLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_weight="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ff00cc"
+    android:visibility="gone"
+    android:id="@+id/ln"
+    android:orientation="vertical">
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="WELCOME" 
+  	    android:id="@+id/bt"/>
+
+</FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+    	android:id="@+id/iv1"
+        android:background="@drawable/images4" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+    	android:id="@+id/iv2"
+        android:background="@drawable/image8" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+    	android:id="@+id/iv3"
+        android:background="@drawable/images9" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+    	android:id="@+id/iv4"
+        android:background="@drawable/image2" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+    	android:id="@+id/iv5"
+        android:background="@drawable/image1" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+    	android:id="@+id/iv6"
+        android:background="@drawable/images12" />
+
+</LinearLayout>
+
+</LinearLayout>
